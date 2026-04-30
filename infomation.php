@@ -46,7 +46,7 @@ IF YOU CHANGE AN ID EG. f_name to first_name, `f_name` must also be changed to `
         <div><input type="text" name="postal" id="postal" placeholder="postal" required></div>
 
         <!-- optional -->
-
+        <div><input type="text" name="option" id="option" placeholder="delivery instructions (optional)"></div>
         <!-- submit -->
         <button type="submit" class="submit_button">Next</button> <!-- type submit allows the database to understand you are submitting data, it executes the process file, eg. action="data-process.php", and updates the database -->
     </form>
